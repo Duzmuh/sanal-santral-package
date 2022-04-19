@@ -1,5 +1,5 @@
 {
     "require": {
-        "Duzmuh/sanal-santral-package": "1.0.0"
+        "Duzmuh/sanal-santral-package": "*"
     }
 }
