@@ -1,5 +1,30 @@
 {
-    "require": {
-        "Duzmuh/sanal-santral-package": "*"
+    "name": "DuzMuh",
+    "description": "Sanal santral mesaj ileti platformu entegrasyon paketidir",
+    "keywords": [
+        "DuzMuh",
+        "sanal santral"
+    ],
+    "homepage": "https://github.com/Duzmuh",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yekta DOĞRU",
+            "email": "yektadogru@outlook.com",
+            "role": "Developer"
+        }
+    ],
+      "require": {
+        "php": "^7.4||^8.0",
+        "sabre/xml": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DuzMuh\\SanalSantral\\": "src"
+        }
     }
 }
